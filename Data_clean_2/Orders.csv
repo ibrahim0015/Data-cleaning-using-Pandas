@@ -1,7 +1,4 @@
-Date:,28/9/2023,,,,,,,,,,,,,,,,,
-Time,5:22 PM,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
+
 Order ID,Order Date,Country,City,Branch,Lat,Lng,Customer First Name,Customer Last Name,Email,Phone Number,Category,Sub Category,Item,SalesPerson ID,Quantity,Unit Price,Discount,Status
 1,1/1/2023,Syria,homs,hs01,34.7326,36.7136,lina,alrrashid,LINA.ALRRASHID@MAIL.COM,Tel: 5634962795,Tablet,Apple iPad,"  iPad   Pro   12.9"" ",N498,1,999,39.96,FALSE
 2,1/1/2023,Saudi Arabia,riyadh,rd01,24.7136,46.6753,omar,eurul,OMAR.EURUL@MAIL.COM,Tel: 5311455624,Smartphone,Samsung Galaxy,Galaxy  S21  Ultra  ,X918,1,1199,119.9,TRUE
