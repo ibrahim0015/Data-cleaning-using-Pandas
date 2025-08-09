@@ -1,18 +1,28 @@
-# This is my first data cleaning project where I worked on a raw CSV file and cleaned it using pandas.
+# Project: Raw Data Cleaning with Pandas
 
-What I Did:
-Removed unnecessary columns like "Peak" and "All Time Peak".
+## Overview
+This project uses Python's Pandas library to transform a raw CSV file into a clean, usable dataset. The script addresses common issues such as unnecessary columns, inconsistent text formatting, and missing or improperly typed values.
 
-Cleaned messy text data in columns like "Actual gross" and "Tour title" using regex to remove brackets, symbols, and extra characters.
+## What I Did
+The script performs the following cleaning operations:
 
-Cleaned and converted "Ref." column by:
+**Column Removal**: Removed irrelevant columns ("Peak" and "All Time Peak") to streamline the dataset.
 
-Stripping brackets and removing alphabets.
+**Text Cleaning**: Used regular expressions (regex) to clean string data in "Actual gross" and "Tour title" for consistency.
 
-Filling missing values using linear interpolation.
+**Data Type Conversion**: Converted the "Ref." column into a numerical format by removing non-numeric characters, filling missing values with linear interpolation, and casting the final column to the integer type (Int64).
 
-Converting it into proper integer type.
+## How to Run
+Install pandas (pip install pandas).
 
-Output:
-The cleaned dataset is saved as:
-cleaned_my_file (1).csv
+Place the raw data file (my_file (1).csv) in the same directory.
+
+Run the Python script from your terminal.
+
+## Technologies Used
+Python 3.x
+
+Pandas
+
+## Output
+The cleaned dataset is saved as cleaned_my_file (1).csv.
